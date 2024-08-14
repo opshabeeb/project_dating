@@ -3,8 +3,8 @@
 
 
     <style>
-        body {
-            ffont-family: 'Poppins', sans-serif;
+        .custom-container{
+            font-family: 'Poppins', sans-serif;
             background-color: #f8d5e0;
             display: flex;
             justify-content: center;
@@ -70,7 +70,8 @@
         }
     </style>
 </head>
-<body>
+  <div class="custom-container container-fluid">
+
     <div class="form-container">
         <h3 class="text-center mb-3">Job Details</h3>
         <form>
@@ -95,6 +96,6 @@
         <a href="{% url 'relationship_goal' %}">>></a>
 
     </div>
-
+</div>
 
 {% endblock content %}
